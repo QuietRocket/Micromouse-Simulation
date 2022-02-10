@@ -1,5 +1,9 @@
 #include "Mouse.h"
 
+void log(const std::string& text) {
+    std::cerr << text << std::endl;
+}
+
 void Mouse::turnLeft()
 {
     // We want to change the direction
