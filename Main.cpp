@@ -1,14 +1,7 @@
 #include <iostream>
 #include <string>
-#include <vector>
 
-#include "API.h"
 #include "Mouse.h"
-
-void log(const std::string& text) {
-    std::cerr << text << std::endl;
-}
-
 
 
 // namespace MMS {

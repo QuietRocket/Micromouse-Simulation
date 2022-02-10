@@ -1,6 +1,14 @@
 #pragma once
 
+#include <iostream>
+#include <vector>
+#include "API.h"
+
 enum Direction { NORTH, EAST, SOUTH, WEST };
+
+void log(const std::string& text) {
+    std::cerr << text << std::endl;
+}
 
 class Mouse {
     Direction dir;
